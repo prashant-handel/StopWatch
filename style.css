@@ -1,4 +1,39 @@
-* {
-  margin: 0;
-  padding: 0;
+body{
+  background-color: slategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+#time {
+  color: white;
+}
+.digit{
+  font-size: 150px;
+  font-weight: bold;
+}
+.text{
+  font-size: 40px;
+  font-weight: bold;
+}
+#btn-container{
+  text-align: center;
+  margin-top: 40px;
+}
+.btn{
+  padding: 7px 25px;
+  font-size: 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#start{
+  background-color: aquamarine;
+}
+#stop{
+  background-color: rgb(69, 214, 233);
+}
+#reset{
+  background-color: red;
 }

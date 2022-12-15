@@ -37,3 +37,27 @@ body{
 #reset{
   background-color: red;
 }
+
+@media only screen and (max-width: 850px){
+  body{
+    overflow-y: auto;
+    /* scale: 50%; */
+  }
+  .digit{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .text{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #btn-container{
+    margin-top: 20px;
+  }
+  .btn{
+    padding: 3px 10px;
+    font-size: 10px;
+    display: block;
+    margin: 10px auto;
+  }
+}
